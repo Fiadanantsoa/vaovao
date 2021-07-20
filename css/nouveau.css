@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+body{
+  margin: 10px 80px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+/*font-family: 'Crimson Text', serif;*/
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+nav h1{
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
+
+nav .onglets{
+  margin-top: 35px;
+}
+
+nav .onglets a{
+
+
+.articles{
+  margin-top: 30px;
+}
+   text-decoration: none;
+   color: #7f7e7e;
+   margin-right: 10px;
+}
+ .article{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.left img {
+  height: 300px ;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+ .right {
+ max-width: 50%;
+ margin-left: 40px;
+ float: right;
+}
+  
+  .date{
+    color: #7f7e7e;
+  }
+footer{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #494949;
+}
+@media screen and (max-width:640px ){
+   body{
+    margin: 10px 20px;
+   }
+   nav .onglets{
+    margin-top: -10px;
+   }
+  .left img{
+    height: 100%;
+    width: 100%;
+  }
+  .right{
+    margin: 0;
+    max-width: 100%;
+  }
+}
